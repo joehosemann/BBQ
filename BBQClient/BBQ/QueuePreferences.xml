@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<QueueDataSet xmlns="http://tempuri.org/QueueDataSet.xsd">
+  <QueuePreferences>
+    <ProductName>apAcct.ENT</ProductName>
+    <Alias>AP-Acct</Alias>
+  </QueuePreferences>
+</QueueDataSet>

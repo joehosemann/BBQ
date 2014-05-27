@@ -1,0 +1,63 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="BBQ.Options"
+	x:Name="Window"
+	Title="Options"
+	Width="561" Height="393" ResizeMode="CanResizeWithGrip" Closing="Window_Closing">
+
+    <Window.Resources>
+
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="10,10,10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid Margin="0">
+                <TextBlock TextWrapping="Wrap" Text="Product.xml Path:" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBox x:Name="tbProductPath" TextWrapping="Wrap" Margin="125,0,0,0" Height="20"/>
+            </Grid>
+            <Grid Margin="0" Grid.Row="1">
+                <TextBlock TextWrapping="Wrap" Text="QueueDetails.xml Path:" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBox x:Name="tbQueueDetailsPath" TextWrapping="Wrap" Margin="125,0,0,0" Width="404.987" Height="20"/>
+            </Grid>
+        </Grid>
+        <Grid d:LayoutOverrides="GridBox" Grid.Row="1" Margin="10,10,10,35">
+            <GroupBox Header="Product Queues">
+                <Grid>
+                    <ListBox x:Name="lbProductQueues" HorizontalAlignment="Left" Width="206" ItemsSource="{Binding Path=QueueDetails}" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path=ProductName}" />
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <ListBox x:Name="lbMyProductQueues" HorizontalAlignment="Right" Width="206" ItemsSource="{Binding Path=QueuePreferences}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Path=ProductName}" Margin="0,0,10,0"/>
+                                    <TextBlock Text="{Binding Path=Alias}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Button Content="Add &gt;&gt;" VerticalAlignment="Center" Width="75" HorizontalAlignment="Center" Margin="0,0,0,100" Click="AddClick" />
+                    <Button Content="Edit" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Grid.Row="1" />
+                    <Button Content="&lt;&lt; Remove" VerticalAlignment="Center" HorizontalAlignment="Center" Width="75" Margin="0,100,0,0" Click="RemoveClick" />
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Button Content="Ok" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,10,8" Grid.Row="1" IsDefault="True" Click="OkClick" />
+        <Button Content="Cancel" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,89,8" Grid.Row="1" IsCancel="True" Click="CancelClick" />
+        <Button Content="Colors" HorizontalAlignment="Right" Margin="0,0,452,8" VerticalAlignment="Bottom" Width="75" Grid.Row="1" Click="Colors_Click" />
+    </Grid>
+</Window>

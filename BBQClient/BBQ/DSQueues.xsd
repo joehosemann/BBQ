@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSQueues" targetNamespace="http://tempuri.org/DSQueues.xsd" xmlns:mstns="http://tempuri.org/DSQueues.xsd" xmlns="http://tempuri.org/DSQueues.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSQueues" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSQueues" msprop:Generator_UserDSName="DSQueues">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QueuePreferences" msprop:Generator_TableClassName="QueuePreferencesDataTable" msprop:Generator_TableVarName="tableQueuePreferences" msprop:Generator_TablePropName="QueuePreferences" msprop:Generator_RowDeletingName="QueuePreferencesRowDeleting" msprop:Generator_UserTableName="QueuePreferences" msprop:Generator_RowChangingName="QueuePreferencesRowChanging" msprop:Generator_RowEvHandlerName="QueuePreferencesRowChangeEventHandler" msprop:Generator_RowDeletedName="QueuePreferencesRowDeleted" msprop:Generator_RowEvArgName="QueuePreferencesRowChangeEvent" msprop:Generator_RowChangedName="QueuePreferencesRowChanged" msprop:Generator_RowClassName="QueuePreferencesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="Alias" msprop:Generator_ColumnVarNameInTable="columnAlias" msprop:Generator_ColumnPropNameInRow="Alias" msprop:Generator_ColumnPropNameInTable="AliasColumn" msprop:Generator_UserColumnName="Alias" type="xs:string" default="string.Empty" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

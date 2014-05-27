@@ -1,0 +1,4 @@
+SELECT     RouterCallsQNow, RouterLongestCallQ, CallTypeID, ServiceLevelCallsToday, ServiceLevelCallsOfferedToday
+FROM         t_Call_Type_Real_Time
+WHERE RouterCallsQNow != 0
+FOR XML RAW ('Queue'), ROOT ('Queues');

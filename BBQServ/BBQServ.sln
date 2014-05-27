@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBQServ", "BBQServ\BBQServ.csproj", "{7CD2E22B-6FB5-4608-B5B0-67767E71F52D}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CD2E22B-6FB5-4608-B5B0-67767E71F52D}.Debug|x86.ActiveCfg = Debug|x86
+		{7CD2E22B-6FB5-4608-B5B0-67767E71F52D}.Debug|x86.Build.0 = Debug|x86
+		{7CD2E22B-6FB5-4608-B5B0-67767E71F52D}.Release|x86.ActiveCfg = Release|x86
+		{7CD2E22B-6FB5-4608-B5B0-67767E71F52D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BBQ.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowLeft" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WindowTop" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ProductQueues" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://bbecweb:8011/ProductQueues.xml</Value>
+    </Setting>
+    <Setting Name="QueueDetails" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://bbecweb:8011/QueueDetails.xml</Value>
+    </Setting>
+    <Setting Name="ProductPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://bbecweb:8011/Product.xml</Value>
+    </Setting>
+    <Setting Name="InactiveQueueBG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InactiveQueueFG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InactiveCallTypeBG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InactiveCallTypeFG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ActiveQueueBG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ActiveQueueFG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ActiveCallTypeBG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ActiveCallTypeFG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InactiveApplicationBackground" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PublicKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NewInstall" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ExtendedQueueBG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExtendedQueueFG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExtendedCallTypeBG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExtendedCallTypeFG" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SecondsTillExtended" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
